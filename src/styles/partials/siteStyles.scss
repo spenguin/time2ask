@@ -1,0 +1,9 @@
+// Site styles
+
+@use "../partials/colours.scss" as *;
+
+.main {
+    background-color: $T2AGreen;
+    display: flex;
+    flex-direction: column;
+}

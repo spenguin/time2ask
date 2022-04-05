@@ -1,0 +1,12 @@
+// Text styles
+
+@use "../partials/variables.scss" as *;
+@use "../partials/colours.scss" as *;
+
+body {
+    color: $T2AWhite;
+}
+
+p {
+    font-size: 1rem;
+}

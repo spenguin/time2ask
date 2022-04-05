@@ -1,0 +1,21 @@
+/* Global styles */
+
+@use "../partials/colours.scss" as *;
+
+a {
+  text-decoration: none;
+}
+
+/* Max width wrapper */
+.max-wrapper {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  color: $ErrorRed;
+}

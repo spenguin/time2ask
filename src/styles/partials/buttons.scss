@@ -1,0 +1,43 @@
+// Button styles
+
+@use "../partials/variables.scss" as *;
+@use "../partials/colours.scss" as *;
+
+.btn {
+    // width: 5rem;
+    // height: 5rem;
+    // background-color: $T2AWhite;
+    // color: $T2ARed;
+    // margin: 2rem auto;
+    // border: 1rem solid $T2AYellow;
+    // border-radius: 50%;
+    // pointer: cursor;
+    border: 0.5rem outset pink;
+    outline: 0.5rem solid khaki;
+    box-shadow: 0 0 0 2rem $T2ABlack;
+    border-radius: 50%;
+    font: bold 1rem sans-serif;
+    color: $T2ARed;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}
+
+.btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.btn-text {
+    font: bold 2rem sans-serif;
+    color: $T2ARed;
+    margin-top: 3rem;
+    rotate: -22deg;
+    position: absolute;
+    cursor: pointer;
+}

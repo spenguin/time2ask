@@ -6,6 +6,9 @@ export default function Actions()
 
 
     return (
-        <p>Actions</p>
+        <div className="btn-wrapper">
+            <button className="btn btn__start"></button>
+            <div className="btn-text">Let's Get Goin'!</div>
+        </div>
     );
 }
